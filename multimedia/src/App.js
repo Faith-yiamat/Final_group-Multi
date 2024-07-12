@@ -6,6 +6,8 @@ import LandingPage from './LandingPage';
 import NavBar from './NavBar';
 import Blog from './Blog Article';
 import Trevor from './Born a Crime';
+import BlogPost from './Multimedia';
+import CaseStudies from './CaseStudies';
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <Footer/>
       <Blog/>
       <Trevor/>
+      <BlogPost/>
+      <CaseStudies/>
     </div>
   );
 }

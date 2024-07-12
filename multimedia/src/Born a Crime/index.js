@@ -62,21 +62,7 @@ depending on where you come from, <br/>your imagination can be quite limited.”
 
 </p>
 </div>
-<div className='footer'>
-                <div className='multi'>
-                <img src ={multimedia} alt ="" className="logo"></img>
-                    <div className='footertext'>
-                   <p>Home</p>
-                   <p>Blog</p>
-                   <p>Portfolio</p>
-                   </div>
-                </div>
-                <div className='contact'>
-                    <h2 className='heading'>Contact</h2>
-                    <p>616,Korongo Road</p>
-                    <p>+254 789 007 224</p>
-                </div>
-            </div>
+
   </div>
 )}
 export default Trevor
