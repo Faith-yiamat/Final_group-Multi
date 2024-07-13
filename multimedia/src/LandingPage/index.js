@@ -66,7 +66,7 @@ function LandingPage(){
 
                             and a glimpse of what our case
 
-                            studies are all about <a href=''> View Blog</a>
+                            studies are all about <a href='#Blog'> View Blog</a>
                            </p>
                             
 

@@ -7,7 +7,7 @@ function CaseStudies(){
         <br/>
         <h2>Inota</h2>
         <div className='project'>
-            <img src='/Imagefol/DeWatermark.ai_1718134937972.png' className='inotaImage'/>
+            <img src='/Imagefol/DeWatermark.ai_1718134937972.png'alt='' className='inotaImage'/>
             <p>
             Inota is a credit scoring system that offers alternative collateral for Saccos. 
             We collect data from the dairy farmers like <br/> mile collections, savings, regular bills and 
@@ -22,7 +22,7 @@ function CaseStudies(){
         </div>
         <h2>UpcycleIt</h2>
         <div className='upcycle-project'>
-            <img src='/Imagefol/upcycle2.jpg' className='upcycleImage'/>
+            <img src='/Imagefol/upcycle2.jpg' alt='' className='upcycleImage'/>
             <p>
             UpcycleIt is a gamified application of the products that helps youths get 
             an awareness of upcycling <br/>and use it in real life. This project is to help
@@ -39,7 +39,7 @@ function CaseStudies(){
 
         <h2>Xomi</h2>
         <div className='xomi-project'>
-            <img src='/Imagefol/Screenshot from 2024-07-12 07-55-25.png' className='xomiImage'/>
+            <img src='/Imagefol/Screenshot from 2024-07-12 07-55-25.png'alt='' className='xomiImage'/>
             <p>
             Our educational app offers a personalized experience for students. Upon logging<br/>
             in, students can access specific sections of a book, handpicked by their teacher.
@@ -57,7 +57,7 @@ function CaseStudies(){
 
         <h2>Apex Simulation</h2>
         <div className='apex-project'>
-            <img src='/Imagefol/apexxx.avif' className='apexImage'/>
+            <img src='/Imagefol/apexxx.avif'alt='' className='apexImage'/>
             <p>
             Apex Simulation equips teachers of visually impaired students with technical skills on
              how to use assistive technologies.<br/>Our main aim was to ensure the continuation of learning
