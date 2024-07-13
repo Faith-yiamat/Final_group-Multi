@@ -1,24 +1,15 @@
 import './index.css';
 import React from 'react';
 import multimedia from '../Images/multimedia.png';
-import trevor from '../Images/born a crime.jpg'
+import trevor from '../Images/born a crime.jpg';
+import NavBar from '../NavBar';
 
 
 const Trevor = () =>{
 return(
     <div className='Container'>
-    <div className='navigation'>
-    <img src ={multimedia} alt ="" className="logo"></img>
-    <nav>
-    <ul>
-    <li>Home</li>
-    <li>Video</li>
-    <li className='write'>Writing</li>
-    <li>Podcast</li>
-    <li>Resume</li>
-    </ul>
-</nav>
-</div>
+
+   <NavBar/>
   <div className='title'>
 <img src={trevor} alt="born a crime book cover" className='trevor'></img>
 <div className='title-words'>

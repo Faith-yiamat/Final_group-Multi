@@ -1,11 +1,17 @@
 import './index.css';
 import multimedia from '../Images/multimedia.png';
+import { Link } from 'react-router-dom';
+import CaseStudies from '../CaseStudies';
+import NavBar from '../NavBar';
+
 
 
 function BlogPost(){
     return(
 
+
         <div className='p'>
+            <NavBar/>
             <div className='political'>
         <h1><b>Political Insights</b></h1>
         <h3>Color Blindness</h3>
@@ -156,7 +162,8 @@ function BlogPost(){
         </p>
 
         </div>
-        <button>Back</button>
+
+        <CaseStudies/>
 
         <div className='footer'>
                 <div className='multi'>
