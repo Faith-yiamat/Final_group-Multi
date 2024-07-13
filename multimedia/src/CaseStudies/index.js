@@ -1,4 +1,5 @@
 import './index.css';
+import { Link } from 'react-router-dom';
 
 function CaseStudies(){
     return(
@@ -75,7 +76,7 @@ function CaseStudies(){
 
 
 
-        <button className='back-button'>Back</button>
+       <Link to= "/Back"> <button className='back-button'>Back</button> </Link>
 
 
 

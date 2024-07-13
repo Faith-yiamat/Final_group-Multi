@@ -26,7 +26,7 @@
   background-color: #40b2b1;
   z-index: 2;
 }
-.nav-links a {
+.nav-links Link {
   color: #ffffff;
   text-decoration: none;
   margin-right: 30px;

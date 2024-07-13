@@ -3,24 +3,15 @@ import React from 'react';
 import R1 from '../Images/born a crime.jpg';
 import R2 from '../Images/R1.jpg'
 import multimedia from '../Images/multimedia.png'
-
+import NavBar from '../NavBar';
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
 
     return(
         <div className='container'>
-            <div className='navigation'>
-                <img src ={multimedia} alt ="" className="logo"></img>
-            <nav>
-                <ul>
-                <li>Home</li>
-                <li>Video</li>
-                <li className='write'>Writing</li>
-                <li>Podcast</li>
-                <li>Resume</li>
-                </ul>
-            </nav>
-           </div>
+            <NavBar/>
+      
                 <h1 className='header'>Blog Post</h1>
             <div className='blog-content'>
              <img className='blog-image' src={R1} alt=''/>
@@ -31,7 +22,7 @@ const Blog = () => {
                         his Xhosa mother's vibrant black township life and his white Swiss father's forbidden one. <br/>
                         "Born a Crime" is his story, a poignant coming-of-age tale filled with humor, resilience, <br/>
                          and a powerful message about finding your place in a world obsessed with dividing lines.</p>
-                     <button>READ</button>
+                    <Link to="/READ"> <button>READ</button></Link>
                          
                </div>
                </div>
@@ -45,7 +36,7 @@ const Blog = () => {
                         his Xhosa mother's vibrant black township life and his white Swiss father's forbidden one. <br/>
                         "Born a Crime" is his story, a poignant coming-of-age tale filled with humor, resilience, <br/>
                          and a powerful message about finding your place in a world obsessed with dividing lines.</p>
-                         <button> Read</button>
+                         <Link to="/Read"> <button>Read</button></Link>
                </div>
                <img className='blog-image' src={R2} alt=''/>
                </div>

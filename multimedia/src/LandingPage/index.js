@@ -1,8 +1,11 @@
 import './index.css';
-
+import Footer from '../Footer';
+import NavBar from '../NavBar';
+import { Link } from 'react-router-dom';
 function LandingPage(){
     return(
         <div>
+            <NavBar/>
             <div className='body'>
 
 
@@ -66,7 +69,7 @@ function LandingPage(){
 
                             and a glimpse of what our case
 
-                            studies are all about <a href='#Blog'> View Blog</a>
+                            studies are all about <Link to='/View Blog'> View Blog</Link>
                            </p>
                             
 
@@ -77,6 +80,8 @@ function LandingPage(){
                     </section>
                 </div>
             </div>
+    <Footer/>
+            
          </div>
     )
 }

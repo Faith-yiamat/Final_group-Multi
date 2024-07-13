@@ -11,7 +11,7 @@ function Footer() {
           <p className="podtext">Coming soon in August</p>
         </div>
         <h1 className="resumes">Resumes</h1>
-        <p className="portfolio">Click on portfolio to view collective digital resume portfolio for all group members.</p>
+        <p className="portfoli">Click on portfolio to view collective digital resume portfolio for all group members.</p>
         <Link to="/portfolio">
           <button>Portfolio</button>
         </Link>
