@@ -40,13 +40,6 @@ function App() {
 
       
 
-
-
-
-
-
-
-
  
       </Routes>
       </Router> 
