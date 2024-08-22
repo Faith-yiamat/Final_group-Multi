@@ -1,7 +1,8 @@
 import './index.css';
-import Footer from '../Footer';
+// import Footer from '../Footer';
 import NavBar from '../NavBar';
 import { Link } from 'react-router-dom';
+
 function LandingPage(){
     return(
         <div>
@@ -17,6 +18,7 @@ function LandingPage(){
                     <div className='landing-page-texts'>
                 
                        <p>Welcome To Our Multimedia Project</p>
+                       <button className='started'>Get Started</button>
 
                     </div>
                     </div>
@@ -24,7 +26,7 @@ function LandingPage(){
                 </div>
 
 
-                <div>
+                {/* <div>
                     <section>
                         <h1>Video</h1>
                         <div className='video-section'>
@@ -78,9 +80,9 @@ function LandingPage(){
                         </div>
                         
                     </section>
-                </div>
+                </div> */}
             </div>
-    <Footer/>
+    {/* <Footer/> */}
             
          </div>
     )

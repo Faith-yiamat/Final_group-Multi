@@ -37,6 +37,7 @@ function App() {
       <Route path = "/portfolios" element= { <Portfolio/> }/>
       <Route path='/View Blog'  element= { <Blog/>}/>
       <Route path='/Read'  element= { <BlogPost/>}/>
+      <Route path="/podcast" element = { <Footer/> }/>
 
       
 

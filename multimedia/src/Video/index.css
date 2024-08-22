@@ -5,26 +5,80 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 3%;
+    margin-top: 10%;
+    
 }
-.videos p{
+.videos a p{
     text-decoration: none;
-    color: #eee9e9;
+    color: #0e0202;
 
 }
 
 .videos img{
-    width: 400px;
-    height: 245px;
+    width: 130px;
+    height: 100px;
 }
 .Laura{
-    margin-top: 10%;
     border-radius: 50%;
 }
 Link button{
-    padding: 8px 16px;
     margin-right:50% ;
 }
-.allvideos{
-    background-color: rgb(146, 150, 173);
+i{
+    font-size: xx-large;
+    margin-left: 5%;
+}
+.backgra{
+    border-radius: 20px;
+
+   
+}
+.amanda{
+    background-color: rgb(46, 204, 204);
+   border-radius: 20px;
+   width: 180px;
+   padding: 2%;
+  
+}
+.wanja{
+   
+    background-color: rgb(46, 204, 204);
+   border-radius: 20px;
+   width: 180px;
+   padding: 2%;
+  }
+.Laura{
+    background-color: rgb(46, 204, 204);
+    border-radius: 20px;
+    width: 180px;
+    padding: 2%;
+}
+.Yiamat{
+    background-color: rgb(46, 204, 204);
+    border-radius: 20px;
+    width: 180px;
+    padding: 2%;
+
+}
+.keesi{
+    background-color: rgb(46, 204, 204);
+    border-radius: 20px;
+    width: 180px;
+    padding: 2%;
+
+}
+.mylogo{
+    width: 100px;
+    height: 100px;
+}
+.rfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(88, 116, 90) ;
+    margin-top: 5.5%;
+    color: white;
+}
+.rcontact{
+    margin-top: 4%;
 }
