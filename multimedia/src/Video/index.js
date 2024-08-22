@@ -61,7 +61,7 @@ function Video () {
 
         </div>
 
-        <div className='rfooter'>
+        {/* <div className='rfooter'>
                 <div className='multi'>
                     <img src='/Imagefol/Logo.png' alt='' className='mylogo'/>
                     <div className='footertext'>
@@ -78,7 +78,7 @@ function Video () {
                 </div>
 
                 
-            </div>
+            </div> */}
 
         </div>
     )

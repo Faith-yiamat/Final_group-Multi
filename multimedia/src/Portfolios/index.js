@@ -26,10 +26,10 @@ function Portfolio () {
                 <div id='bio'>
                     <div id='profile'>
                         <div id='photo'>
-                            <img src='./Images/Amanda photo.jpg' alt='Amanda'></img>
+                            <img src='https://ca.slack-edge.com/T06G0419JUQ-U06GES6UNEM-341184734223-512' alt='Amanda'></img>
                         </div>
                         <div id='name'>
-                            <b>Amanda Ireri</b>
+                            <b>Eyvone Oyella</b>
                         </div>
                     </div>
                     <br/>
@@ -57,7 +57,7 @@ function Portfolio () {
                         </div>
                         <div id='details'>
                             <ul>
-                                <li>amynyawira@gmail.com</li>
+                                <li>eyvoneoyella@gmail.com</li>
                                 <li>https://www.linkedin.com/in/amanda-ireri-a8694a2b3/</li>
                                 <li>+254700891229</li>
                             </ul>
@@ -99,10 +99,10 @@ function Portfolio () {
                 <div id='bio2'>
                     <div id='profile'>
                         <div id='photo'>
-                            <img src='./Images/Shalom.jpg' alt='Shalom Keesi'></img>
+                            <img src='https://ca.slack-edge.com/T06G0419JUQ-U06GRD7LMB2-2359d78aa7c1-512' alt='Shalom Keesi'></img>
                         </div>
                         <div id='name2'>
-                            <b>Shalom Keesi</b>
+                            <b>Nancy Shimwe</b>
                         </div>
                     </div>
                     <br/>
@@ -129,7 +129,7 @@ function Portfolio () {
                         </div>
                         <div id='details2'>
                             <ul>
-                                <li>shalomkeesi@gmail.com</li>
+                                <li>nacnyshimwe@gmail.com</li>
                                 <li>https://www.linkedin.com/in/shalom-keesi-4411522b6/?originalSubdomain=ke</li>
                                 <li>+254740331181</li>
                             </ul>
