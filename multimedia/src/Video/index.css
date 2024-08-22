@@ -15,8 +15,8 @@
 }
 
 .videos img{
-    width: 130px;
-    height: 100px;
+    width: 170px;
+    height: 200px;
 }
 .Laura{
     border-radius: 50%;
@@ -34,15 +34,16 @@ i{
    
 }
 .amanda{
-    background-color: rgb(46, 204, 204);
+   background-color: rgb(46, 204, 204);
    border-radius: 20px;
-   width: 180px;
+   width: 200px;
+   height: 300px;
    padding: 2%;
   
 }
 .wanja{
    
-    background-color: rgb(46, 204, 204);
+   background-color: rgb(46, 204, 204);
    border-radius: 20px;
    width: 180px;
    padding: 2%;
