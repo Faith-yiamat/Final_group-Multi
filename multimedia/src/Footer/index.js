@@ -1,21 +1,33 @@
 import './index.css';
-import { Link } from 'react-router-dom';
+import NavBar from '../NavBar';
+
 
 function Footer() {
   return (
+
+    
     <div>
+      <NavBar/>
+
       <div id="main">
         <img src="/Imagefol/DeWatermark.png" alt="" className="mainImage" />
-        <div className="text-on-image">
-          <h3 className="pod">New PodCast</h3>
-          <p className="podtext">Coming soon in August</p>
-        </div>
-        <h1 className="resumes">Resumes</h1>
-        <p className="portfoli">Click on portfolio to view collective digital resume portfolio for all group members.</p>
-        <Link to="/portfolio">
-          <button>Portfolio</button>
-        </Link>
+        <h3 className="pod">New PodCast</h3>
+        <div className="podcast-container">
+      <div className="podtext">
+      
+        <audio controls>
+          <source src="/Images/podcast.m4a"type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
       </div>
+    </div>
+        
+      
+       
+        
+    
+      </div>
+{/* 
       <div className="footer">
         <div className="multi">
           <h2 className="multimedia">Multimedia</h2>
@@ -31,7 +43,8 @@ function Footer() {
           <p>616,Korongo Road</p>
           <p>+254 789 007 224</p>
         </div>
-      </div>
+      </div> */}
+
     </div>
   );
 }

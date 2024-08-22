@@ -376,7 +376,7 @@ function Portfolio () {
 
             <div className='footer'>
                 <div className='multi'>
-                    <h2 className='multimedia'>Multimedia</h2>
+                    <img src='/Imagefol/Logo.png' alt=''/>
                     <div className='footertext'>
                    <p>Home</p>
                    <p>Blog</p>
